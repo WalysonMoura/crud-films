@@ -1,0 +1,14 @@
+{
+    "type": "postgress",
+    "port": 3030,
+    "host": "localhost",
+    "username": "",
+    "password":"",
+    "database": "crud-films",
+    "cli":{
+        "migrations": "/src/dtabase/migrations/*ts",
+        "migrationsDir": "/src/database/migrations",
+        "entities": "src/entities/*ts",
+        "entitiesDir": "src/entities"
+    }
+}
